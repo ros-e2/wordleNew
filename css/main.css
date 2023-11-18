@@ -1,0 +1,38 @@
+@import 'footer.css';
+@import 'header.css';
+
+#timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  gap: 5px;
+}
+
+.board-row {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.board-column {
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
